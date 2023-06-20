@@ -1,0 +1,30 @@
+{
+  "name": "live-coding-html-clermont",
+  "version": "1.0.0",
+  "description": "html/css : structure d'une page html , selector css, property display",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "migrate": " node migrate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WildCodeSchool/2023-03-clermont-support-adrec.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WildCodeSchool/2023-03-clermont-support-adrec/issues"
+  },
+  "homepage": "https://github.com/WildCodeSchool/2023-03-clermont-support-adrec#readme",
+  "dependencies": {
+    "argon2": "^0.30.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.4.0",
+    "nodemon": "^2.0.22"
+  }
+}
